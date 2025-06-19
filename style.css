@@ -1,0 +1,248 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background: #c0c0c0;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .centered-wrapper {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 400px;
+    direction: rtl;
+  }
+  
+  .register-box h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #595a59;
+  }
+
+  .profile-box {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+  }
+  
+/* تنسيق المعلومات داخل الملف الشخصي */
+.profile-info p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 10px 0;
+    color: #555;
+}
+
+.profile-info strong {
+    color: #000000;
+}
+
+/* تنسيق زر "تعديل البيانات" و "تسجيل الخروج" */
+.edit-btn, .logout-btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    width: 90%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover, .logout-btn:hover {
+    background-color: #5b5c5b;
+}
+
+/* تنسيق النصوص في حالة الرسائل (نجاح أو خطأ) */
+p.green {
+    color: green;
+    text-align: center;
+}
+
+p.red {
+    color: red;
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* زر تسجيل الخروج */
+.logout-btn {
+    background-color: #ff4747;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #e43d3d;
+}
+/* تنسيق صفحة اقتراحات الأكل */
+.food-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.food-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    direction: rtl;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+.food-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.food-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.food-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.food-item strong {
+    color: #b00000;
+}
+.main-header {
+    background-color: #000000;
+    padding: 20px 0;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center ;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .main-header > * {
+    margin: 0 15px; 
+  }
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .main-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .main-nav a:hover {
+    color: #dff2e1;
+  }
+  
+
+  
