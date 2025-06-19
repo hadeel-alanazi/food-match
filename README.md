@@ -1,6 +1,6 @@
 # foodMatch website
 
-This web application provides personalized food suggestions based on user preferences and allergies. It allows users to manage their dietary profiles and receive curated food recommendations .
+This website provides personalized food suggestions based on user preferences and allergies. It allows users to manage their dietary profiles and receive curated food recommendations .
 
 ---
 
@@ -23,7 +23,8 @@ This web application provides personalized food suggestions based on user prefer
 ├── profile.php # Shows user profile information
 ├── db_connect.php # Database connection 
 ├── style.css # CSS for layout and styling 
-└── register.php/login.php/logout.php # Authentication system 
+├── register.php/login.php/logout.php # Authentication system 
+└──food_suggestions.sql # database structure + sample data
 
 ---
 
