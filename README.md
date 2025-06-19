@@ -48,9 +48,9 @@ This website provides personalized food suggestions based on user preferences an
 ---
 
 ## Technologies Used
-HTML5 & CSS3
-PHP
-MySQL
+- HTML5 & CSS3
+- PHP
+- MySQL
 
 ---
 
