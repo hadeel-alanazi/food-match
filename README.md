@@ -46,12 +46,12 @@ This web application provides personalized food suggestions based on user prefer
 
 ---
 
-##Technologies Used
+## Technologies Used
 HTML5 & CSS3
 PHP
 MySQL
 
 ---
 
-##Contact
+## Contact
 For feedback or suggestions, please reach out via email: hadeelalanazi.2025@gmail.com
